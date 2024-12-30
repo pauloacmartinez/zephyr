@@ -27,10 +27,6 @@ if(TargetTools_FOUND)
   return()
 endif()
 
-# Prevent CMake from testing the toolchain
-set(CMAKE_C_COMPILER_FORCED   1)
-set(CMAKE_CXX_COMPILER_FORCED 1)
-
 # https://cmake.org/cmake/help/latest/variable/CMAKE_SYSTEM_NAME.html:
 #   The name of the operating system for which CMake is to build.
 #
